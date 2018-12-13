@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc2907314c1cb34091ecc99266da52b, type: 3}
+  m_Name: A1.StartingState
+  m_EditorClassIdentifier: 
+  storyText: "The cold drip of water on your brow awakens you, the drops slam against
+    your head and sound like a hammer against sheet metal.  You feel a sore, nagging,
+    tugging pain from your knee.  Your head is heavy and you feel as though you have
+    40000 lbs of weight on your chest.  Your eyes slowly grow acustomed to the dim
+    light, and you notice a rat is chewing on your shoe lace.  You quickly try to
+    kick the rat away but you cannot move your legs..  \n\nWithin reach you see a
+    pencil and a leftover ham sandwich, what do you do?\n\n1. Grab the pencil\n2.
+    Make use of the Ham Sandwich."
+  nextStates:
+  - {fileID: 11400000, guid: 38bd2fc2cbdfe5942811e0b090ce1008, type: 2}
+  - {fileID: 11400000, guid: 95351f5625eb04a40b99cc27a6282ad4, type: 2}
